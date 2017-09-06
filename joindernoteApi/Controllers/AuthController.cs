@@ -13,7 +13,6 @@ namespace joindernoteApi.Controllers
         ITokenService tokenService = new TokenService();
         IUsuarioService usuarioService = new UsuarioService();
 
-
         // Verifica token
         public string Get(string token)
         {
@@ -26,7 +25,6 @@ namespace joindernoteApi.Controllers
             usuario = usuarioService.GetUsuario(usuario.Id);
             if(usuario != null) return tokenService.CreateToken(usuario).Nombre;
             return "El usuario no existe";
-
         }
 
     }
