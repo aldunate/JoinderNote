@@ -24,9 +24,7 @@ namespace joindernoteApi.Controllers
 
         public IHttpActionResult Post(Usuario usuario)
         {
-            var isSave = usuarioService.SaveUsuario(usuario);
-            if (isSave) return Ok();
-            return BadRequest();
+            return Ok(usuarioService.SaveUsuario(usuario));
         }
 
 

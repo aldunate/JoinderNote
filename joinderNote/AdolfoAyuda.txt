@@ -1,0 +1,16 @@
+https://carlosazaustre.es/angular-2-primeros-pasos/
+
+$ npm init -y
+$ npm i -g babel@5.8.23
+$ npm i -D babel-core@5.8.25
+$ npm i -D babel-plugin-angular2-annotations@2.0.1
+$ npm i -D babelify@6.3.0
+$ npm i -D browserify@11.0.1
+$ npm i -D vinyl-buffer@1.0.0
+$ npm i -D vinyl-source-stream@1.1.0
+$ npm i -D watchify@3.6.0
+$ npm i -D gulp@3.9.0
+$ npm i -D http-server@0.8.5
+$ npm i -S angular2@2.0.0-alpha.44
+$ npm i -S reflect-metadata@0.1.0
+$ npm i -S zone.js@0.5.8

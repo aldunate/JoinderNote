@@ -10,6 +10,10 @@ namespace joindernoteService.Services
     {
         List<Usuario> GetUsuarios();
         Usuario GetUsuario(int id);
-        bool SaveUsuario(Usuario usuario);
+        Usuario GetUsuario(string nombre);
+        Usuario SaveUsuario(Usuario usuario);
+        Token LoginUsuario(Usuario usuario);
+
+
     }
 }

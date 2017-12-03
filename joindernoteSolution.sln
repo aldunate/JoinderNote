@@ -1,15 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joindernoteData", "joindernoteData\joindernoteData.csproj", "{F18570AF-C3B5-46A2-9CCC-405C81CBE3FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joindernoteService", "joindernoteService\joindernoteService.csproj", "{6C50DC7D-D45B-4181-9D5F-6B644CAF1799}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joindernoteApi", "joindernoteApi\joindernoteApi.csproj", "{1B5EFDA2-0EA7-4DF6-842A-1E9CE698AE34}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "joindernoteMvc", "joindernoteMvc\joindernoteMvc.csproj", "{D39FC144-FE8B-4AFD-8D4F-5061FCD376C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +27,11 @@ Global
 		{1B5EFDA2-0EA7-4DF6-842A-1E9CE698AE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B5EFDA2-0EA7-4DF6-842A-1E9CE698AE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B5EFDA2-0EA7-4DF6-842A-1E9CE698AE34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D39FC144-FE8B-4AFD-8D4F-5061FCD376C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D39FC144-FE8B-4AFD-8D4F-5061FCD376C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D39FC144-FE8B-4AFD-8D4F-5061FCD376C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D39FC144-FE8B-4AFD-8D4F-5061FCD376C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {799EBD95-CADE-4E8A-8223-17416EE1E47A}
 	EndGlobalSection
 EndGlobal

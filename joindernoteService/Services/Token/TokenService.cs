@@ -20,7 +20,7 @@ namespace joindernoteService.Services
             var payload = new Dictionary<string, object>
             {
                 { "sub", usuario.Id },
-                { "iat", today },
+                //{ "iat", today },
                 { "exp", today.AddDays(1) }
             };
             IJwtAlgorithm algorithm = new HMACSHA256Algorithm();
